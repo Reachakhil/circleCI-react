@@ -23,21 +23,11 @@ class ClickCounter extends React.Component {
   
 
     render() {
-       let Mapped =  this.state.arr.map((child,key)=>{
-            return( <div key={key} style={{color:'white'}}>{child} - {key}</div>
-                )
-            })
         return(
             <div>
-            <button onClick={this.handleClick}>CLicked time</button>
+            <button onClick={this.handleClick}>CLicked times</button>
             <ClickCounterChild counter={this.state.counter} reset={this.reset}/>
-            <br/>
-           
-           
-            {/* {} */}
-        {Mapped}
-            
-            
+            <br/>            
             </div>
         )
     }
