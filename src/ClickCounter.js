@@ -29,7 +29,7 @@ class ClickCounter extends React.Component {
             })
         return(
             <div>
-            <button onClick={this.handleClick}>CLicked  times</button>
+            <button onClick={this.handleClick}>CLicked time</button>
             <ClickCounterChild counter={this.state.counter} reset={this.reset}/>
             <br/>
            
