@@ -20,7 +20,7 @@ const Counter1 = () => {
 
         <React.Fragment>
             <Alertcustom open={open} counter={counter} onClose={changeOpen}/>
-            <button onClick={() => changeCount('akhil')}>Click {counter}</button>
+            <button onClick={() => changeCount('akhil')}>Click {counter} Times</button>
         </React.Fragment>
     );
 };
