@@ -40,7 +40,7 @@ class ClickCounterChild extends Component {
         return (
             <div>
                 {this.props.counter}
-                <button onClick={this.props.reset}>Reset the counter</button>
+                <button onClick={this.props.reset}>Reset counter</button>
             </div>
         );
     }

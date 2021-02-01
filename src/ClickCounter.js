@@ -15,7 +15,6 @@ class ClickCounter extends React.Component {
         })
     }
      reset = ()=>{
-        console.log(this,"clicked");
         this.setState({counter:0})
     }
     
