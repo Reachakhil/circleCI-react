@@ -39,7 +39,7 @@ class ClickCounterChild extends Component {
     render() {
         return (
             <div>
-                {this.props.counter}
+                
                 <button onClick={this.props.reset}>Reset counter</button>
             </div>
         );
