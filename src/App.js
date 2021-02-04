@@ -8,8 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <Counter1/>
-       <Counter2/>
+
        <ClickCounter/>
        <HoverCounter/>
       </header>

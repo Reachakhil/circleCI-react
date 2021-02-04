@@ -17,7 +17,7 @@ class HoverCounter extends React.Component {
 
         return(
             <div>
-            <p onMouseOver={this.handleClick}>CLicked {this.state.counter} times</p>
+            <p onMouseOver={this.handleClick}>Hover {this.state.counter} times</p>
             </div>
         )
     }
